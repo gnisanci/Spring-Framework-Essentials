@@ -20,7 +20,6 @@ import static org.junit.Assert.assertThat;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = AppConfig.class)
-@Transactional
 @ActiveProfiles("dev")
 public class InMemoryAccountRepositoryTest {
 
